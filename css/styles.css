@@ -171,4 +171,14 @@ footer{
     #name, #contact, #emailID, #message{
         width: 15rem;
     }
+    #illustrationPhotographer{
+        float: right;
+        width:23rem;
+    }
+}
+
+@media (max-width:366px){
+    #illustrationPhotographer{
+        width:20rem;
+    }
 }
