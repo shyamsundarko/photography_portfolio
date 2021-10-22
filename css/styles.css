@@ -1,0 +1,155 @@
+body{
+    font-weight: 600;
+    color: #3b4754;
+}
+#bookNowBtn, #mastheadBtn, .getStarted, #formBtn {
+    float: right;
+    border-radius: 15px;
+    font-size: 90%;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+.navbar-brand{
+    padding-left: 1rem;
+}
+#navbar, #gallery, #reviews{
+    border-bottom: solid;
+    border-color: #eef1f5;
+}
+.tab-content{
+    padding-bottom: 2rem;
+}
+#navbar{
+    padding: 5px 0px 5px 0px;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#masthead{
+    margin-top: 6rem;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+} 
+#mastheadBtn{
+    float: none;
+}
+#illustrationPhotographer{
+    height: 25rem;
+    float: right;
+}
+
+#skillsContainer{
+   background-color: rgba(243, 243, 243, 0.521);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.summaryIcon{
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
+
+
+h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 110%;
+    min-height: 4rem;
+    max-height: 4rem;
+}
+
+#summary1, #summary2, #summary3{
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: rgb(255, 255, 255);
+      
+}
+
+.lead{
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+footer{
+    margin-top: 3rem;
+}
+
+.card{
+    display: inline-block;
+}
+
+.package{
+    border: solid; 
+    border-color: #d4d4d4; 
+    margin: 1rem; 
+    margin-top: 2rem;
+}
+.package:hover{
+ border-color: #474747;
+}
+
+.getStarted{
+    background-color: #29323d; 
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    float: none;
+    
+}
+
+#formBtn{
+    margin-top: 2rem;
+    float: none;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #29323d;
+    
+}
+
+.form-group{
+    text-align: left;
+    margin-bottom: 1rem;
+} 
+
+
+
+@media (max-width: 767px) {
+    
+    h5{
+        min-height: 1rem;
+    }
+
+    
+    #summary1, #summary2, #summary3{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (min-width: 992px){
+    h5{
+        min-height: 1rem;
+    }
+    #bookNowBtn{
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 574px){
+    @media ( max-width: 681px){
+        #bookNowBtn{
+           
+           font-size: 59%;
+           max-height: 2rem;
+        }
+    }
+}
