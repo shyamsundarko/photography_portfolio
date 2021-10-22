@@ -120,6 +120,10 @@ footer{
     margin-bottom: 1rem;
 } 
 
+#name, #contact, #emailID, #message{
+    width: 30rem;
+}
+
 
 
 @media (max-width: 767px) {
@@ -151,5 +155,18 @@ footer{
            font-size: 59%;
            max-height: 2rem;
         }
+    }
+}
+
+@media (max-width:722px){
+    #name, #contact, #emailID, #message{
+        width: 20rem;
+    }
+
+}
+
+@media(max-width:492px){
+    #name, #contact, #emailID, #message{
+        width: 15rem;
     }
 }
