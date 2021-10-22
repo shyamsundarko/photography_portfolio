@@ -15,7 +15,7 @@ body{
 .navbar-brand{
     padding-left: 1rem;
 }
-#navbar, #gallery, #reviews{
+#navbar, #reviews{
     border-bottom: solid;
     border-color: #eef1f5;
 }
