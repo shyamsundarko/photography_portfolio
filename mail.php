@@ -1,3 +1,5 @@
+<!-- This PHP code isnt used because I am deploying using github only-->
+
 <?php
     
     $name = $_POST['name'];
