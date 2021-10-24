@@ -3,7 +3,7 @@ body{
     color: #3b4754;
 }
 #bookNowBtn, #mastheadBtn, .getStarted, #formBtn {
-    float: right;
+    
     border-radius: 15px;
     font-size: 90%;
     text-transform: uppercase;
@@ -12,6 +12,7 @@ body{
     padding-left: 1rem;
     
 }
+
 .navbar-brand{
     padding-left: 1rem;
 }
@@ -177,6 +178,7 @@ footer{
         float: right;
         width:23rem;
     }
+    
 }
 
 @media (max-width:366px){
