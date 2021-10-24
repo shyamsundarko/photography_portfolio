@@ -9,12 +9,15 @@
     $body = "Client Name: ".$name ."\r\n Contact number: ".$contact . "\r\n Email: ".$email . "\r\n Message: ".$message;
     $headers = "From: noreply@shyamsundarko.com";
     
-    printf($body);
+    $response= mail($to, $subject, $body, $headers);
 
     if($email!=NULL){
         $response= mail($to, $subject, $body, $headers);
         if($response){
             header("Location: index.php");
+        }
+        else{
+            printf($body);
         }
     }
     
