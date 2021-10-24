@@ -55,6 +55,7 @@ h2{
 
 #togglerIcon{
     border-color: rgb(255, 255, 255);
+    
 }
 
 h5{
@@ -83,9 +84,7 @@ footer{
     margin-top: 3rem;
 }
 
-.card{
-    display: inline-block;
-}
+
 
 .package{
     border: solid; 

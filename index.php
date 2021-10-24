@@ -13,21 +13,23 @@
     <header>
         <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="navbar">
             <div class="container-fluid" >
-                        <a class="navbar-brand" href="./index.html">shyam sundar.</a>
-                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar" id="togglerIcon">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="Navbar">
-                            <ul class="navbar-nav" id="navigation">
-                                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#pricing">Packages</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#contactForm">Contact</a></li>
-                            </ul>
-                            <div class="navbar-nav ms-auto">
-                                <a href="#contactForm" role="button" class="btn text-white" id="bookNowBtn" style="background-color: #29323d;">Book now</a>
-                            </div>
-                        </div>
+                <a class="navbar-brand" href="./index.html">shyam sundar.</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar" id="togglerIcon">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto" id="navigation">
+                            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pricing">Packages</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contactForm">Contact</a></li>
+                    </ul>
+                    <div class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="#contactForm" id="bookNowBtn" style="background-color: #29323d;">Book now</a>
+                        </li>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
