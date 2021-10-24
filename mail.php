@@ -12,8 +12,10 @@
     printf($body);
 
     if($email != NULL){
-        mail($to, $subject, $body, $headers);
+        $response= mail($to, $subject, $body, $headers);
     }
     //redirect
-    header("Location: index.php");
+    if($response){
+        header("Location: index.php");
+    }
 ?>

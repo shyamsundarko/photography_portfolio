@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="navbar">
             <div class="container-fluid" >
-                        <a class="navbar-brand" href="./index.html">shyam sundar.</a>
+                        <a class="navbar-brand" href="./index.php">shyam sundar.</a>
                         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar" id="togglerIcon">
                             <span class="navbar-toggler-icon"></span>
                         </button>
