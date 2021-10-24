@@ -2,7 +2,7 @@
     
     $name = $_POST['name'];
     $contact =$_POST['contact'];
-    $email = $_POST['email'];
+    $email = $_POST['emailAddress'];
     $message = $_POST['message'];
     $to = "shyamsundarko@gmail.com";
     $subject = "Mail from client";
@@ -11,11 +11,12 @@
     
     printf($body);
 
-    if($email != NULL){
+    if($email!=NULL){
         $response= mail($to, $subject, $body, $headers);
+        if($response){
+            header("Location: index.php");
+        }
     }
-    //redirect
-    if($response){
-        header("Location: index.php");
-    }
+    
+   
 ?>
