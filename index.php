@@ -241,14 +241,14 @@
             </div>
         </div>
 <!--.......................................................................................................-->
- <!--.............................Contact Section..........................................-->
+ <!--.............................Contact Section..................................."https://formspree.io/f/mnqlyblj".......-->
         <div class="container-fluid" id="contactForm" style="padding-bottom: 4rem; padding-top: 2rem; background-color: rgba(243, 243, 243, 0.521);">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-auto">
-                                <form action="https://formspree.io/f/mnqlyblj" method="POST">
+                                <form action="mail.php" method="POST">
                                     <h3 style="font-weight: 700;">CONTACT</h3>
                                     <div class="form-group">
                                         <label for="name">Name*</label>
