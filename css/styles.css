@@ -24,7 +24,6 @@ body{
 }
 #navbar{
     padding: 5px 0px 5px 0px;
-    z-index: 0;
     background-color: rgb(255, 255, 255);
 }
 
@@ -126,7 +125,11 @@ footer{
     width: 30rem;
 }
 
-
+.carousel-item{
+   border: solid;
+   position: relative;
+   
+}
 
 @media (max-width: 767px) {
     
