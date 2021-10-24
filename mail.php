@@ -13,5 +13,5 @@
         mail($to, $subject, $body, $headers);
     }
     //redirect
-    header("Location: index.html");
+    header("Location: index.php");
 ?>
