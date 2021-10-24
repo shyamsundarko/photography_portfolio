@@ -9,6 +9,8 @@
     $body = "Client Name: ".$name ."\r\n Contact number: ".$contact . "\r\n Email: ".$email . "\r\n Message: ".$message;
     $headers = "From: noreply@shyamsundarko.com";
     
+    printf($body);
+
     if($email != NULL){
         mail($to, $subject, $body, $headers);
     }

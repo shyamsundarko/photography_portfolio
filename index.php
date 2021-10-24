@@ -260,7 +260,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="emailID">Email ID*</label>
-                                        <input type="email" class="form-control" name="_replyto" id="emailID" placeholder="Your Email..." required>
+                                        <input type="email" class="form-control" name="email" id="emailID" placeholder="Your Email..." required>
                                     </div>
                                     <div class="form-group">
                                         <label for="message">Message*</label> <br>
