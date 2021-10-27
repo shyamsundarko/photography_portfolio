@@ -138,8 +138,7 @@ footer{
 .glide__slide{
     background-color: #e8f2ff6e; 
     padding: 1rem;
-    
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 @media (max-width: 767px) {
