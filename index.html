@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/glide.core.min.css">
+    <link rel="stylesheet" href="./css/glide.theme.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Welcome</title>
 </head>
@@ -128,76 +130,48 @@
             </div>
         </div>
 <!--.........................................................................................-->
-<!--.............................Reviews Section..........................................-->
-      <!-- <div class="container" id="reviews">
-            <div class="row row-content">
-                <div class="col-xs-12 col-md-9">
-                   <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item-active" id="0">Hello</div>
-                            <div class="carousel-item" id="1">its me</div>
-                        </div>
-                    </div> 
-                </div> 
-                <div class="col-xs-12 col-md-3 text-center">
-                    <h3 style="padding-top: 5rem; font-weight: 700; text-transform: uppercase; font-size: 180%; padding-bottom: 5rem;">Hear what others have to say</h3>
-                </div>
-            </div>
-        </div>
-                   --> 
+<!--.............................Reviews Section........................<img src="./images/Review1.jpg" alt="Review 1" >..................-->
+                   
         <div class="container" id="reviews">
             <div class="row align-items-center">
-                <div class="col-xs-12 col-md-9" style="padding-top:1rem; margin-top: 1rem;">
-                    <div id="myCarousel" class="carousell slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousell-inner">
-                            <div class="carousel-item active">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-auto">
-                                            <h1>Example test</h1>
-                                            <p class="text-muted">This is just to check if it works.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>       
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-auto">
-                                            <h1>Example test2</h1>
-                                            <p class="text-muted">This is just to check if it works.</p>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>
+                <div class="col-xs-12 col-md-9 text-center" style="padding-top:1rem; margin-top: 1rem;">
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <h3>Jane</h3>
+                                    <p class="text-muted">It was a seamless and wonderful photo shooting experience with Shyam who really good at his area of expertise! I am very happy with the result and personally love his photography style. He was able to accommodate my request and get it done efficiently. Recommend to anyone who like to take a professional shooting!</p>
+                                    <br>
+                                </li>
+                                <li class="glide__slide">  
+                                    <h3>Natalie</h3>
+                                    <p class="text-muted">Shyam did my graduation shoot - he was super patient and was very open to suggestions. We decided to extend the shoot for another 30mins and he was very happy to accommodate. He sent me the raw photos really quick and genuinely wanted to improve according to my feedback. Goes all out for his clients!💯</p>
+                                    <br>
+                                </li>
+                                <li class="glide__slide"> 
+                                    <h3>Sarah</h3>
+                                    <p class="text-muted">Great photoshoot with shyam! I was looking to get new LinkedIn Headshots and now I have too many to choose from 😂 price was affordable and shyam was very friendly and extremely efficient with the editing - got my photos in 2 days which was so fast considering the amount of photos I left him with to edit. would highly recommend!</p>
+                                    <br>
+                                </li>
+                            </ul>
                         </div>
-                        <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                               
-                            <span class="visually-hidden">Previous</span>
-                        </a>
-                        <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          
-                            <span class="visually-hidden">Next</span>
-                        </a>
+                        <div class="glide__bullets" data-glide-el="controls[nav]">
+                            <button class="glide__bullet" data-glide-dir="=0" style="background-color: #29323d;"></button>
+                            <button class="glide__bullet" data-glide-dir="=1" style="background-color: #29323d;"></button>
+                            <button class="glide__bullet" data-glide-dir="=2" style="background-color: #29323d;"></button>
+                          </div>
+                                   
                     </div>
+                        
                 </div>
-                <div class="col-xs-12 col-md-3 text-center">
+                <div class="col-xs-12 col-md-2 text-center">
                     <h3 style="padding-top: 5rem; font-weight: 700; text-transform: uppercase; font-size: 180%; padding-bottom: 5rem;">Hear what others have to say</h3>
                 </div>
             </div>
         </div>
+         
         
-       
+        
               
 
 <!--................................................................................................-->
@@ -317,11 +291,11 @@
                                     <h3 style="font-weight: 700;">CONTACT</h3>
                                     <div class="form-group">
                                         <label for="name">Name*</label>
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name..." required>
+                                        <input type="text" class="form-control remove" name="name" id="name" placeholder="Your Name..." required>
                                     </div>
                                     <div class="form-group">
                                         <label for="contact">Contact</label>
-                                        <input type="number" class="form-control" name="contact" id="contact" placeholder="Your Contact number...">
+                                        <input type="number" class="form-control remove" name="contact" id="contact" placeholder="Your Contact number...">
                                     </div>
                                     <div class="form-group">
                                         <label for="emailID">Email ID*</label>
@@ -329,7 +303,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="message">Message*</label> <br>
-                                        <textarea class="form control rounded" name="message" id="message" placeholder="Enter Message..." rows="5" style="border-color:#bdc1c5c2; padding: 0.5rem;" required></textarea>
+                                        <textarea class="form-control rounded remove" name="message" id="message" placeholder="Enter Message..." rows="5" style="border-color:#bdc1c5c2; padding: 0.5rem;" required></textarea>
                                     </div> 
                                     <button class="btn text-white" id="formBtn" type="submit" value="Send">Submit</button>
                                 </form>
@@ -354,7 +328,15 @@
         </div>
     </footer>
     <script src="js/bootstrap.js"></script>
-   <!-- <script src="js/bootstrap.min.js"></script> for some reason this causes toggler issue for navbar for small screens -->
-    
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>  
+    <script>
+            const config = {
+                type: 'carousel',
+                perView: 1,
+                autoplay: 2000
+                
+            }
+            new Glide('.glide', config).mount()
+    </script>  
 </body>
 </html>
